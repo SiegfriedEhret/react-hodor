@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>react-hodor !</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<header>
+
+</header>
+<main>
+  <h1><img src="oatmeal_hodor.jpg" alt="react-hodor"/></h1>
+
+  <p>The github repository is <a href="https://github.com/SiegfriedEhret/react-hodor" target="_blank">here</a>.</p>
+
+  <p>Install using <code>npm install react-hodor</code> !</p>
+
+  <p>Include some stuff !</p>
+
+  <pre class="code-block with-border">
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Hodor from './react-hodor.jsx';</pre>
+
+  <h2>hodor</h2>
+
+  <p>The default <code>&lt;Hodor/&gt;</code> element renders the text "hodor".</p>
+
+  <pre class="code-block with-border">ReactDOM.render(
+    &lt;Hodor/&gt;,
+    document.getElementById('hodor'));</pre>
+
+  <p>will be displayed as:</p>
+
+  <div id="hodor"></div>
+
+  <h2>Hodor</h2>
+
+  <p>Give it some hodoring:</p>
+
+  <pre class="code-block with-border">ReactDOM.render(
+    &lt;Hodor hodorhodor="10"/&gt;,
+    document.getElementById('hodorhodor'));</pre>
+
+  <p>and it will</p>
+
+  <div id="hodorhodor"></div>
+
+  <h2>HODOR</h2>
+
+  Make it hodor speak with:
+
+  <pre class="code-block with-border">ReactDOM.render(
+    &lt;Hodor hodor="hodor" hodorhodor="100"/&gt;,
+    document.getElementById('hodorhodorhodor'));</pre>
+
+  <p>Aaaaand here it comes !</p>
+
+  <div id="hodorhodorhodor"></div>
+
+</main>
+<footer>
+  <ul>
+    <li>Made with hodor by <a href="https://twitter.com/SiegfriedEhret" target="_blank">@SiegfriedEhret</a></li>
+    <li>Image from <a href="http://theoatmeal.com/quiz/got_character" target="_blank">The Oatmeal</a></li>
+    <li><a href="http://www.dafont.com/burst-my-bubble.font" target="_blank">Burst my bubble font</a></li>
+  </ul>
+</footer>
+
+<script src="./bundle.js"></script>
+
+</body>
+</html>
